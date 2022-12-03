@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "1B66EC8D-FDF9-472F-8047-BFECBD10B182"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "67B817B0-19CE-4B82-A722-0E66DB2C89D4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MARCO-appFrontEnd/ComponentViews/SearchBarView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "67B817B0-19CE-4B82-A722-0E66DB2C89D4 - 173b310f71ffea01"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MARCO_appFrontEnd.SearchBarView.body.getter : some"
+                  moduleName = "MARCO-appFrontEnd"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sashamoroz/Desktop/MARCO-appFrontEnd-main/MARCO-appFrontEnd/ComponentViews/SearchBarView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "656">
+               </Location>
+               <Location
+                  uuid = "67B817B0-19CE-4B82-A722-0E66DB2C89D4 - 3eeef3f04e19a2e5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.VStack&lt;SwiftUI.EmptyView&gt; in MARCO_appFrontEnd.SearchBarView.body.getter : some"
+                  moduleName = "MARCO-appFrontEnd"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sashamoroz/Desktop/MARCO-appFrontEnd-main/MARCO-appFrontEnd/ComponentViews/SearchBarView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "72">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "ABAE4D29-5285-4503-AECE-C99F3FE1A0E8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MARCO-appFrontEnd/ComponentViews/ArtworkPageView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "136"
+            endingLineNumber = "136"
+            landmarkName = "downloadSampleUSDZ(url:completition:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "ABAE4D29-5285-4503-AECE-C99F3FE1A0E8 - c14c36d4b42b4b04"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.URL&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in MARCO_appFrontEnd.ArtworkPageView.downloadSampleUSDZ(url: Swift.String, completition: (Swift.String) -&gt; ()) -&gt; ()"
+                  moduleName = "MARCO-appFrontEnd"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sashamoroz/Desktop/MARCO-appFrontEnd-main/MARCO-appFrontEnd/ComponentViews/ArtworkPageView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "146"
+                  endingLineNumber = "146"
+                  offsetFromSymbolStart = "1089">
+               </Location>
+               <Location
+                  uuid = "ABAE4D29-5285-4503-AECE-C99F3FE1A0E8 - c14c36d4b42b4b04"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.URL&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in MARCO_appFrontEnd.ArtworkPageView.downloadSampleUSDZ(url: Swift.String, completition: (Swift.String) -&gt; ()) -&gt; ()"
+                  moduleName = "MARCO-appFrontEnd"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sashamoroz/Desktop/MARCO-appFrontEnd-main/MARCO-appFrontEnd/ComponentViews/ArtworkPageView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "146"
+                  endingLineNumber = "146"
+                  offsetFromSymbolStart = "1310">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F9AB1ADA-AF5A-4ECC-9F2D-C774CB6F6FB9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MARCO-appFrontEnd/ComponentViews/ArtworkPageView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "132"
+            endingLineNumber = "132"
+            landmarkName = "downloadSampleUSDZ(url:completition:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B0332C75-2718-423B-87D6-2508E773CE68"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MARCO-appFrontEnd/ComponentViews/ArtworkPageView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "134"
+            endingLineNumber = "134"
+            landmarkName = "downloadSampleUSDZ(url:completition:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B0332C75-2718-423B-87D6-2508E773CE68 - c14c36d4b42b4bc6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.URL&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in MARCO_appFrontEnd.ArtworkPageView.downloadSampleUSDZ(url: Swift.String, completition: (Swift.String) -&gt; ()) -&gt; ()"
+                  moduleName = "MARCO-appFrontEnd"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sashamoroz/Desktop/MARCO-appFrontEnd-main/MARCO-appFrontEnd/ComponentViews/ArtworkPageView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "144"
+                  endingLineNumber = "144"
+                  offsetFromSymbolStart = "1053">
+               </Location>
+               <Location
+                  uuid = "B0332C75-2718-423B-87D6-2508E773CE68 - c14c36d4b42b4bc6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.URL&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in MARCO_appFrontEnd.ArtworkPageView.downloadSampleUSDZ(url: Swift.String, completition: (Swift.String) -&gt; ()) -&gt; ()"
+                  moduleName = "MARCO-appFrontEnd"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sashamoroz/Desktop/MARCO-appFrontEnd-main/MARCO-appFrontEnd/ComponentViews/ArtworkPageView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "144"
+                  endingLineNumber = "144"
+                  offsetFromSymbolStart = "1274">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

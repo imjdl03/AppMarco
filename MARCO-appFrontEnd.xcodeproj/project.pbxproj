@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		90093156291AD08A00E0CEF1 /* MixedCanvaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90093155291AD08A00E0CEF1 /* MixedCanvaView.swift */; };
+		90093158291AD44700E0CEF1 /* SearchCanvaVCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90093157291AD44700E0CEF1 /* SearchCanvaVCardView.swift */; };
+		9009315A291AD56F00E0CEF1 /* SearchCanvaHCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90093159291AD56F00E0CEF1 /* SearchCanvaHCardView.swift */; };
+		9009315C291AD61200E0CEF1 /* SearchCanvaMCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9009315B291AD61200E0CEF1 /* SearchCanvaMCardView.swift */; };
+		9009315E291AD6B400E0CEF1 /* SearchCanvaSCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9009315D291AD6B400E0CEF1 /* SearchCanvaSCardView.swift */; };
+		9041744C29024B68001085D7 /* VScrollGrandeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9041744B29024B68001085D7 /* VScrollGrandeView.swift */; };
+		9041744E29024B8D001085D7 /* Calendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9041744D29024B8D001085D7 /* Calendar.swift */; };
+		9041745029025874001085D7 /* VScrollChicoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9041744F29025874001085D7 /* VScrollChicoView.swift */; };
+		9041745229025CC4001085D7 /* VScrollChicoCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9041745129025CC4001085D7 /* VScrollChicoCardView.swift */; };
+		904174542902F017001085D7 /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904174532902F017001085D7 /* Search.swift */; };
+		9058F0B82924308D001B5B32 /* ExpoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9058F0B72924308D001B5B32 /* ExpoModel.swift */; };
+		9058F0BA292430DD001B5B32 /* ExpoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9058F0B9292430DD001B5B32 /* ExpoViewModel.swift */; };
+		90F8F3A828FF2FD400AC0572 /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F8F3A728FF2FD400AC0572 /* CardModel.swift */; };
+		90F8F3AC28FF3A9600AC0572 /* CardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F8F3AB28FF3A9600AC0572 /* CardViewModel.swift */; };
+		90F8F3AE28FF8C7700AC0572 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F8F3AD28FF8C7700AC0572 /* Home.swift */; };
+		90F8F3B429006D8900AC0572 /* HScrollGrandeCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F8F3B329006D8900AC0572 /* HScrollGrandeCardView.swift */; };
+		90F8F3B629006F3E00AC0572 /* HScrollGrandeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F8F3B529006F3E00AC0572 /* HScrollGrandeView.swift */; };
+		CFC6970728F724CF00CAB33A /* MARCO_appFrontEndApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC6970628F724CF00CAB33A /* MARCO_appFrontEndApp.swift */; };
+		CFC6970928F724CF00CAB33A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC6970828F724CF00CAB33A /* ContentView.swift */; };
+		CFC6970B28F724D500CAB33A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFC6970A28F724D500CAB33A /* Assets.xcassets */; };
+		CFC6970E28F724D500CAB33A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFC6970D28F724D500CAB33A /* Preview Assets.xcassets */; };
+		CFD8CD9428FE46F4006CE565 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD8CD9328FE46F4006CE565 /* MainView.swift */; };
+		D0A0FEB9290214B6009F2B55 /* Collections.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A0FEB8290214B6009F2B55 /* Collections.swift */; };
+		D0A0FEBB2902157F009F2B55 /* CollectionItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A0FEBA2902157F009F2B55 /* CollectionItemView.swift */; };
+		D0B0A83929021E1200F45C1D /* HscrollChicoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B0A83829021E1200F45C1D /* HscrollChicoView.swift */; };
+		E72928B229388B3500779AC8 /* ArtworkImagesScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72928B129388B3500779AC8 /* ArtworkImagesScrollView.swift */; };
+		E72928B629389E7F00779AC8 /* ArtworksPerCollectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72928B529389E7F00779AC8 /* ArtworksPerCollectionViewModel.swift */; };
+		E72928B8293942E900779AC8 /* SerchCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72928B7293942E900779AC8 /* SerchCardView.swift */; };
+		E72928BA293996ED00779AC8 /* EventModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72928B9293996ED00779AC8 /* EventModel.swift */; };
+		E72928BC2939971A00779AC8 /* EventViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72928BB2939971A00779AC8 /* EventViewModel.swift */; };
+		E72928BE2939983B00779AC8 /* VScrollGrandeCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72928BD2939983B00779AC8 /* VScrollGrandeCardView.swift */; };
+		E72928C02939989E00779AC8 /* ExtrasModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72928BF2939989E00779AC8 /* ExtrasModel.swift */; };
+		E72928C2293998B900779AC8 /* ExtrasViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72928C1293998B900779AC8 /* ExtrasViewModel.swift */; };
+		E72928C4293998ED00779AC8 /* HScrollChicoCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72928C3293998ED00779AC8 /* HScrollChicoCardView.swift */; };
+		E7B17034293000C50005154B /* ARContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B17033293000C50005154B /* ARContentView.swift */; };
+		E7B17038293001580005154B /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B17037293001580005154B /* ARViewController.swift */; };
+		E7B17040293022EF0005154B /* liberty_smooth.usdz in Resources */ = {isa = PBXBuildFile; fileRef = E7B1703F293022EF0005154B /* liberty_smooth.usdz */; };
+		E7B170422930241B0005154B /* Pig.usdz in Resources */ = {isa = PBXBuildFile; fileRef = E7B170412930241B0005154B /* Pig.usdz */; };
+		E7D099D62939B9CE00A1B556 /* CustomMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D099D52939B9CE00A1B556 /* CustomMainView.swift */; };
+		E7D099D82939CAC200A1B556 /* VExtraCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D099D72939CAC200A1B556 /* VExtraCardView.swift */; };
+		E7D099DA2939DE1500A1B556 /* AR.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D099D92939DE1500A1B556 /* AR.swift */; };
+		E7D27D8029353F980058546C /* ArtworkCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D27D7F29353F980058546C /* ArtworkCardView.swift */; };
+		E7D27D8229368D980058546C /* ArtworkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D27D8129368D980058546C /* ArtworkModel.swift */; };
+		E7D27D8429368DAC0058546C /* ArtworkViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D27D8329368DAC0058546C /* ArtworkViewModel.swift */; };
+		E7D27D8629369DD80058546C /* ArtworkScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D27D8529369DD80058546C /* ArtworkScrollView.swift */; };
+		E7D27D882937D19C0058546C /* ArtworkPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D27D872937D19C0058546C /* ArtworkPageView.swift */; };
+		E7D27D8A2937D63F0058546C /* ARCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D27D892937D63F0058546C /* ARCardView.swift */; };
+		E7FBB5DE2901DF7600D83A2E /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7FBB5DD2901DF7600D83A2E /* SearchView.swift */; };
+		E7FBB5E02901DFB300D83A2E /* CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7FBB5DF2901DFB300D83A2E /* CollectionView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		90093155291AD08A00E0CEF1 /* MixedCanvaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MixedCanvaView.swift; sourceTree = "<group>"; };
+		90093157291AD44700E0CEF1 /* SearchCanvaVCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCanvaVCardView.swift; sourceTree = "<group>"; };
+		90093159291AD56F00E0CEF1 /* SearchCanvaHCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCanvaHCardView.swift; sourceTree = "<group>"; };
+		9009315B291AD61200E0CEF1 /* SearchCanvaMCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCanvaMCardView.swift; sourceTree = "<group>"; };
+		9009315D291AD6B400E0CEF1 /* SearchCanvaSCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCanvaSCardView.swift; sourceTree = "<group>"; };
+		9041744B29024B68001085D7 /* VScrollGrandeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VScrollGrandeView.swift; sourceTree = "<group>"; };
+		9041744D29024B8D001085D7 /* Calendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calendar.swift; sourceTree = "<group>"; };
+		9041744F29025874001085D7 /* VScrollChicoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VScrollChicoView.swift; sourceTree = "<group>"; };
+		9041745129025CC4001085D7 /* VScrollChicoCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VScrollChicoCardView.swift; sourceTree = "<group>"; };
+		904174532902F017001085D7 /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
+		9058F0B72924308D001B5B32 /* ExpoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpoModel.swift; sourceTree = "<group>"; };
+		9058F0B9292430DD001B5B32 /* ExpoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpoViewModel.swift; sourceTree = "<group>"; };
+		90F8F3A728FF2FD400AC0572 /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
+		90F8F3AB28FF3A9600AC0572 /* CardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewModel.swift; sourceTree = "<group>"; };
+		90F8F3AD28FF8C7700AC0572 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		90F8F3B329006D8900AC0572 /* HScrollGrandeCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HScrollGrandeCardView.swift; sourceTree = "<group>"; };
+		90F8F3B529006F3E00AC0572 /* HScrollGrandeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HScrollGrandeView.swift; sourceTree = "<group>"; };
+		CFC6970328F724CF00CAB33A /* MARCO-appFrontEnd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MARCO-appFrontEnd.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFC6970628F724CF00CAB33A /* MARCO_appFrontEndApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MARCO_appFrontEndApp.swift; sourceTree = "<group>"; };
+		CFC6970828F724CF00CAB33A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CFC6970A28F724D500CAB33A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFC6970D28F724D500CAB33A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CFD8CD9328FE46F4006CE565 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		D0A0FEB8290214B6009F2B55 /* Collections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Collections.swift; sourceTree = "<group>"; };
+		D0A0FEBA2902157F009F2B55 /* CollectionItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionItemView.swift; sourceTree = "<group>"; };
+		D0B0A83829021E1200F45C1D /* HscrollChicoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HscrollChicoView.swift; sourceTree = "<group>"; };
+		E72928B129388B3500779AC8 /* ArtworkImagesScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkImagesScrollView.swift; sourceTree = "<group>"; };
+		E72928B529389E7F00779AC8 /* ArtworksPerCollectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworksPerCollectionViewModel.swift; sourceTree = "<group>"; };
+		E72928B7293942E900779AC8 /* SerchCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerchCardView.swift; sourceTree = "<group>"; };
+		E72928B9293996ED00779AC8 /* EventModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EventModel.swift; path = "MARCO-appFrontEnd/ComponentViews/EventModel.swift"; sourceTree = SOURCE_ROOT; };
+		E72928BB2939971A00779AC8 /* EventViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventViewModel.swift; sourceTree = "<group>"; };
+		E72928BD2939983B00779AC8 /* VScrollGrandeCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VScrollGrandeCardView.swift; sourceTree = "<group>"; };
+		E72928BF2939989E00779AC8 /* ExtrasModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtrasModel.swift; sourceTree = "<group>"; };
+		E72928C1293998B900779AC8 /* ExtrasViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtrasViewModel.swift; sourceTree = "<group>"; };
+		E72928C3293998ED00779AC8 /* HScrollChicoCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HScrollChicoCardView.swift; sourceTree = "<group>"; };
+		E7B1702C292FF0700005154B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		E7B17033293000C50005154B /* ARContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARContentView.swift; sourceTree = "<group>"; };
+		E7B17037293001580005154B /* ARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
+		E7B1703F293022EF0005154B /* liberty_smooth.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = liberty_smooth.usdz; sourceTree = "<group>"; };
+		E7B170412930241B0005154B /* Pig.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Pig.usdz; sourceTree = "<group>"; };
+		E7D099D52939B9CE00A1B556 /* CustomMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMainView.swift; sourceTree = "<group>"; };
+		E7D099D72939CAC200A1B556 /* VExtraCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VExtraCardView.swift; sourceTree = "<group>"; };
+		E7D099D92939DE1500A1B556 /* AR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AR.swift; sourceTree = "<group>"; };
+		E7D27D7F29353F980058546C /* ArtworkCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkCardView.swift; sourceTree = "<group>"; };
+		E7D27D8129368D980058546C /* ArtworkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkModel.swift; sourceTree = "<group>"; };
+		E7D27D8329368DAC0058546C /* ArtworkViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkViewModel.swift; sourceTree = "<group>"; };
+		E7D27D8529369DD80058546C /* ArtworkScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkScrollView.swift; sourceTree = "<group>"; };
+		E7D27D872937D19C0058546C /* ArtworkPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkPageView.swift; sourceTree = "<group>"; };
+		E7D27D892937D63F0058546C /* ARCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCardView.swift; sourceTree = "<group>"; };
+		E7FBB5DD2901DF7600D83A2E /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		E7FBB5DF2901DFB300D83A2E /* CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFC6970028F724CF00CAB33A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFC696FA28F724CF00CAB33A = {
+			isa = PBXGroup;
+			children = (
+				CFC6970528F724CF00CAB33A /* MARCO-appFrontEnd */,
+				CFC6970428F724CF00CAB33A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFC6970428F724CF00CAB33A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFC6970328F724CF00CAB33A /* MARCO-appFrontEnd.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFC6970528F724CF00CAB33A /* MARCO-appFrontEnd */ = {
+			isa = PBXGroup;
+			children = (
+				E7B1703E293022D50005154B /* New Group */,
+				E7B1702C292FF0700005154B /* Info.plist */,
+				CFC6970628F724CF00CAB33A /* MARCO_appFrontEndApp.swift */,
+				D0A0FEAF2901CD67009F2B55 /* PageViews */,
+				D0A0FEAE2901CD4E009F2B55 /* ComponentViews */,
+				D0A0FEAD2901CCD0009F2B55 /* ViewModels */,
+				D0A0FEAC2901CCB8009F2B55 /* Models */,
+				E7B170392930022F0005154B /* ViewControllers */,
+				CFC6970828F724CF00CAB33A /* ContentView.swift */,
+				E7D099D52939B9CE00A1B556 /* CustomMainView.swift */,
+				CFD8CD9328FE46F4006CE565 /* MainView.swift */,
+				CFC6970A28F724D500CAB33A /* Assets.xcassets */,
+				CFC6970C28F724D500CAB33A /* Preview Content */,
+			);
+			path = "MARCO-appFrontEnd";
+			sourceTree = "<group>";
+		};
+		CFC6970C28F724D500CAB33A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CFC6970D28F724D500CAB33A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D0A0FEAC2901CCB8009F2B55 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E72928B9293996ED00779AC8 /* EventModel.swift */,
+				90F8F3A728FF2FD400AC0572 /* CardModel.swift */,
+				E7D27D8129368D980058546C /* ArtworkModel.swift */,
+				9058F0B72924308D001B5B32 /* ExpoModel.swift */,
+				E72928BF2939989E00779AC8 /* ExtrasModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D0A0FEAD2901CCD0009F2B55 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				90F8F3AB28FF3A9600AC0572 /* CardViewModel.swift */,
+				E7D27D8329368DAC0058546C /* ArtworkViewModel.swift */,
+				E72928B529389E7F00779AC8 /* ArtworksPerCollectionViewModel.swift */,
+				9058F0B9292430DD001B5B32 /* ExpoViewModel.swift */,
+				E72928BB2939971A00779AC8 /* EventViewModel.swift */,
+				E72928C1293998B900779AC8 /* ExtrasViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		D0A0FEAE2901CD4E009F2B55 /* ComponentViews */ = {
+			isa = PBXGroup;
+			children = (
+				90F8F3B329006D8900AC0572 /* HScrollGrandeCardView.swift */,
+				90093157291AD44700E0CEF1 /* SearchCanvaVCardView.swift */,
+				90F8F3B529006F3E00AC0572 /* HScrollGrandeView.swift */,
+				D0A0FEBA2902157F009F2B55 /* CollectionItemView.swift */,
+				D0B0A83829021E1200F45C1D /* HscrollChicoView.swift */,
+				E72928C3293998ED00779AC8 /* HScrollChicoCardView.swift */,
+				9041744F29025874001085D7 /* VScrollChicoView.swift */,
+				E7D27D7F29353F980058546C /* ArtworkCardView.swift */,
+				9009315B291AD61200E0CEF1 /* SearchCanvaMCardView.swift */,
+				9041745129025CC4001085D7 /* VScrollChicoCardView.swift */,
+				9009315D291AD6B400E0CEF1 /* SearchCanvaSCardView.swift */,
+				90093155291AD08A00E0CEF1 /* MixedCanvaView.swift */,
+				90093159291AD56F00E0CEF1 /* SearchCanvaHCardView.swift */,
+				9041744B29024B68001085D7 /* VScrollGrandeView.swift */,
+				E72928BD2939983B00779AC8 /* VScrollGrandeCardView.swift */,
+				E7FBB5DF2901DFB300D83A2E /* CollectionView.swift */,
+				E7D27D872937D19C0058546C /* ArtworkPageView.swift */,
+				E72928B129388B3500779AC8 /* ArtworkImagesScrollView.swift */,
+				E7D27D892937D63F0058546C /* ARCardView.swift */,
+				E7B17033293000C50005154B /* ARContentView.swift */,
+				E7D27D8529369DD80058546C /* ArtworkScrollView.swift */,
+				E72928B7293942E900779AC8 /* SerchCardView.swift */,
+				E7FBB5DD2901DF7600D83A2E /* SearchView.swift */,
+				E7D099D72939CAC200A1B556 /* VExtraCardView.swift */,
+			);
+			path = ComponentViews;
+			sourceTree = "<group>";
+		};
+		D0A0FEAF2901CD67009F2B55 /* PageViews */ = {
+			isa = PBXGroup;
+			children = (
+				90F8F3AD28FF8C7700AC0572 /* Home.swift */,
+				D0A0FEB8290214B6009F2B55 /* Collections.swift */,
+				904174532902F017001085D7 /* Search.swift */,
+				9041744D29024B8D001085D7 /* Calendar.swift */,
+				E7D099D92939DE1500A1B556 /* AR.swift */,
+			);
+			path = PageViews;
+			sourceTree = "<group>";
+		};
+		E7B170392930022F0005154B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E7B17037293001580005154B /* ARViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E7B1703E293022D50005154B /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				E7B170412930241B0005154B /* Pig.usdz */,
+				E7B1703F293022EF0005154B /* liberty_smooth.usdz */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFC6970228F724CF00CAB33A /* MARCO-appFrontEnd */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFC6971128F724D500CAB33A /* Build configuration list for PBXNativeTarget "MARCO-appFrontEnd" */;
+			buildPhases = (
+				CFC696FF28F724CF00CAB33A /* Sources */,
+				CFC6970028F724CF00CAB33A /* Frameworks */,
+				CFC6970128F724CF00CAB33A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MARCO-appFrontEnd";
+			productName = "MARCO-appFrontEnd";
+			productReference = CFC6970328F724CF00CAB33A /* MARCO-appFrontEnd.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFC696FB28F724CF00CAB33A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					CFC6970228F724CF00CAB33A = {
+						CreatedOnToolsVersion = 14.0;
+					};
+				};
+			};
+			buildConfigurationList = CFC696FE28F724CF00CAB33A /* Build configuration list for PBXProject "MARCO-appFrontEnd" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFC696FA28F724CF00CAB33A;
+			productRefGroup = CFC6970428F724CF00CAB33A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFC6970228F724CF00CAB33A /* MARCO-appFrontEnd */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFC6970128F724CF00CAB33A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7B170422930241B0005154B /* Pig.usdz in Resources */,
+				CFC6970E28F724D500CAB33A /* Preview Assets.xcassets in Resources */,
+				CFC6970B28F724D500CAB33A /* Assets.xcassets in Resources */,
+				E7B17040293022EF0005154B /* liberty_smooth.usdz in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFC696FF28F724CF00CAB33A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7FBB5DE2901DF7600D83A2E /* SearchView.swift in Sources */,
+				CFD8CD9428FE46F4006CE565 /* MainView.swift in Sources */,
+				90F8F3B629006F3E00AC0572 /* HScrollGrandeView.swift in Sources */,
+				CFC6970928F724CF00CAB33A /* ContentView.swift in Sources */,
+				E7D27D8229368D980058546C /* ArtworkModel.swift in Sources */,
+				9009315E291AD6B400E0CEF1 /* SearchCanvaSCardView.swift in Sources */,
+				E7D27D8629369DD80058546C /* ArtworkScrollView.swift in Sources */,
+				9009315C291AD61200E0CEF1 /* SearchCanvaMCardView.swift in Sources */,
+				E7D27D882937D19C0058546C /* ArtworkPageView.swift in Sources */,
+				9041744E29024B8D001085D7 /* Calendar.swift in Sources */,
+				E72928BC2939971A00779AC8 /* EventViewModel.swift in Sources */,
+				90F8F3B429006D8900AC0572 /* HScrollGrandeCardView.swift in Sources */,
+				E72928B229388B3500779AC8 /* ArtworkImagesScrollView.swift in Sources */,
+				E7B17038293001580005154B /* ARViewController.swift in Sources */,
+				90F8F3AC28FF3A9600AC0572 /* CardViewModel.swift in Sources */,
+				9041745029025874001085D7 /* VScrollChicoView.swift in Sources */,
+				9058F0BA292430DD001B5B32 /* ExpoViewModel.swift in Sources */,
+				E72928BE2939983B00779AC8 /* VScrollGrandeCardView.swift in Sources */,
+				E7D27D8429368DAC0058546C /* ArtworkViewModel.swift in Sources */,
+				E72928B8293942E900779AC8 /* SerchCardView.swift in Sources */,
+				E72928C4293998ED00779AC8 /* HScrollChicoCardView.swift in Sources */,
+				E7FBB5E02901DFB300D83A2E /* CollectionView.swift in Sources */,
+				E7D099D62939B9CE00A1B556 /* CustomMainView.swift in Sources */,
+				904174542902F017001085D7 /* Search.swift in Sources */,
+				D0B0A83929021E1200F45C1D /* HscrollChicoView.swift in Sources */,
+				9009315A291AD56F00E0CEF1 /* SearchCanvaHCardView.swift in Sources */,
+				E7D099D82939CAC200A1B556 /* VExtraCardView.swift in Sources */,
+				E7B17034293000C50005154B /* ARContentView.swift in Sources */,
+				90093158291AD44700E0CEF1 /* SearchCanvaVCardView.swift in Sources */,
+				9058F0B82924308D001B5B32 /* ExpoModel.swift in Sources */,
+				CFC6970728F724CF00CAB33A /* MARCO_appFrontEndApp.swift in Sources */,
+				E72928BA293996ED00779AC8 /* EventModel.swift in Sources */,
+				90093156291AD08A00E0CEF1 /* MixedCanvaView.swift in Sources */,
+				E7D27D8A2937D63F0058546C /* ARCardView.swift in Sources */,
+				90F8F3A828FF2FD400AC0572 /* CardModel.swift in Sources */,
+				E7D27D8029353F980058546C /* ArtworkCardView.swift in Sources */,
+				D0A0FEBB2902157F009F2B55 /* CollectionItemView.swift in Sources */,
+				E72928B629389E7F00779AC8 /* ArtworksPerCollectionViewModel.swift in Sources */,
+				E7D099DA2939DE1500A1B556 /* AR.swift in Sources */,
+				9041745229025CC4001085D7 /* VScrollChicoCardView.swift in Sources */,
+				9041744C29024B68001085D7 /* VScrollGrandeView.swift in Sources */,
+				90F8F3AE28FF8C7700AC0572 /* Home.swift in Sources */,
+				D0A0FEB9290214B6009F2B55 /* Collections.swift in Sources */,
+				E72928C02939989E00779AC8 /* ExtrasModel.swift in Sources */,
+				E72928C2293998B900779AC8 /* ExtrasViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CFC6970F28F724D500CAB33A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CFC6971028F724D500CAB33A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFC6971228F724D500CAB33A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MARCO-appFrontEnd/Preview Content\"";
+				DEVELOPMENT_TEAM = U9JXWD2ZKD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MARCO-appFrontEnd/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sasha-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CFC6971328F724D500CAB33A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MARCO-appFrontEnd/Preview Content\"";
+				DEVELOPMENT_TEAM = U9JXWD2ZKD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MARCO-appFrontEnd/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sasha-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFC696FE28F724CF00CAB33A /* Build configuration list for PBXProject "MARCO-appFrontEnd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFC6970F28F724D500CAB33A /* Debug */,
+				CFC6971028F724D500CAB33A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFC6971128F724D500CAB33A /* Build configuration list for PBXNativeTarget "MARCO-appFrontEnd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFC6971228F724D500CAB33A /* Debug */,
+				CFC6971328F724D500CAB33A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFC696FB28F724CF00CAB33A /* Project object */;
+}

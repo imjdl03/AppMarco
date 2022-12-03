@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "closure #1 in ArtworkPageView.downloadSampleUSDZ(url:completition:):ArtworkPageView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.item.ar">
+            </PersistentString>
+            <PersistentString
+               value = "self.item">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
